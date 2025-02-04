@@ -10,7 +10,7 @@ const StudentDataTable = ({ studentData, onSelectionChange }) => {
   };
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ width: "100%", height: "75vh" }}>
       <DataGrid
         rows={studentData}
         columns={columnHeaders.map((col) => ({ ...col, sortable: false }))}
